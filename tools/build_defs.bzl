@@ -33,7 +33,7 @@ def add_tests(name, versions, provider_dep, srcs, deps, size, test_class, data):
 
 # Bouncy Castle targets
 
-bouncycastle_versions = ["1_%d" % i for i in range(49, 60)]
+bouncycastle_versions = ["1_%d" % i for i in range(49, 66)]
 bouncycastle_dep = "@bouncycastle"
 
 # These targets run all tests.
